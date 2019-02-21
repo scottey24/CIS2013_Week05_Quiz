@@ -31,10 +31,13 @@ int main (){
 	cout << "a) Add a student \n";
 	cout << "b) Set a Students grade\n";
 	cout << "c) Print all grades\n";
-
+	cin >>  a;
 	
-	cout << " How many students in this class: ";
+	
+		
+		cout << " How many students in this class: ";
 	cin >> LEN;
+	
 	
 	for(int i=0; i<LEN; i++) {
 		makeStudent(i);
