@@ -21,12 +21,17 @@ void printGrade(int y){
 int main (){
 	
 	int LEN;
+	string a;
+	string b;
+	string c;
+	
+
 	
 	cout << "What would you like to do \n";
 	cout << "a) Add a student \n";
 	cout << "b) Set a Students grade\n";
-	cout << "c) Print all grades";
-	cin >> 
+	cout << "c) Print all grades\n";
+
 	
 	cout << " How many students in this class: ";
 	cin >> LEN;
